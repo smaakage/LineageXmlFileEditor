@@ -1,0 +1,14 @@
+d:\data\documents\visual studio 2015\Projects\ChangeTime\bin\Debug\ChangeTime.exe.config
+d:\data\documents\visual studio 2015\Projects\ChangeTime\bin\Debug\ChangeTime.exe
+d:\data\documents\visual studio 2015\Projects\ChangeTime\bin\Debug\ChangeTime.pdb
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\ChangeTime.csprojResolveAssemblyReference.cache
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\MainWindow.g.cs
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\App.g.cs
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\ChangeTime_MarkupCompile.cache
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\ChangeTime_MarkupCompile.lref
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\MainWindow.baml
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\ChangeTime.g.resources
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\ChangeTime.Properties.Resources.resources
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\ChangeTime.csproj.GenerateResource.Cache
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\ChangeTime.exe
+d:\data\documents\visual studio 2015\Projects\ChangeTime\obj\Debug\ChangeTime.pdb

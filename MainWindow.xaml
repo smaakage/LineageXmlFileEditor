@@ -1,0 +1,20 @@
+﻿<Window x:Class="ChangeTime.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChangeTime"
+        mc:Ignorable="d"
+        Title="Change time in XML file" Height="355" Width="465.385">
+    <Grid>
+        <Label x:Name="lbPath" Content="File Path" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbValue" Content="Value" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbKey" Content="Key" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbSkills" Content="Skills" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPath" Height="23" Margin="123,10,10,0" TextWrapping="NoWrap" Text="{Binding FilePath}" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtKey" Height="23" Margin="123,45,10,0" TextWrapping="NoWrap" Text="{Binding xmlKey}" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtValue" Height="23" Margin="123,76,10,0" TextWrapping="NoWrap" Text="{Binding xmlValue}" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSkills" Margin="123,104,10,35" TextWrapping="Wrap" Text="{Binding xmlSkills}" ToolTip="Alle værdier skal separeres med , eks: 1001,1002,2001"/>
+        <Button x:Name="btnSave" Content="Save changes" Margin="0,0,10,10" HorizontalAlignment="Right" Width="89" Height="20" VerticalAlignment="Bottom" Click="btnSave_Click"/>
+    </Grid>
+</Window>
