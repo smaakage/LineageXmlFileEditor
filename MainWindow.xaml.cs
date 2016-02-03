@@ -16,8 +16,6 @@ using System.Xml;
 using System.ComponentModel;
 using System.IO;
 using System.Xml.Serialization;
-using System.Collections.ObjectModel;
-using ChangeTime.Props;
 
 namespace ChangeTime
 {
@@ -68,8 +66,6 @@ namespace ChangeTime
             }
         }
 
-        public ObservableCollection<SearchValues> possibleSearchValues { get; set; }
-
         public event PropertyChangedEventHandler PropertyChanged;
 
         public MainWindow()
@@ -78,7 +74,6 @@ namespace ChangeTime
             DataContext = this;
             FilePath = @"C:\Game Server\Lineage II Highfive\game\data\stats\skills";
             xmlKey = "abnormalTime";
-            possibleSearchValues = new ObservableCollection<SearchValues>();
         }
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
